@@ -1,0 +1,30 @@
+.nButtonDiv {
+   display: flex;
+   float:top;
+   color : white;
+   border: none;
+   background-color: #282828;
+   height: 48px;
+   width: 76px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: Helvetica;
+   font-size: 18px;
+   opacity: 1;
+   transition:0.7s;
+   }
+
+.nButtonDiv:hover {
+   color : white;
+   background-color:black;
+   height: 48px;
+   width: 76px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: Helvetica;
+   font-size: 18px;
+
+   }
+

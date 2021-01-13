@@ -1,0 +1,12 @@
+.oButtonDiv:hover {
+   color : white;
+   background-color:black;
+   height: 48px;
+   width: 76px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: Helvetica;
+   font-size: 18px;
+
+   }

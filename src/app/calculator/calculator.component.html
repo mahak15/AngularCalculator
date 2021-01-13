@@ -1,0 +1,30 @@
+<div class="calculatorDiv"  (keypress)="keyButtonPress($event)" tabindex="0">
+
+  <div class ="displayDiv">
+    <app-display [expression] = "displayPrint.expression" ></app-display>
+  </div>
+
+  <div class="mainButtonDiv">
+    <div class ="buttonDiv">
+
+      <app-button *ngFor="let btn of general" [value]="btn"  (click) = "onClickHandler(btn)"> </app-button>
+
+      <div class ="nButtonDiv">
+        <app-button *ngFor="let btn of numbers" [value]="btn" (click) = "onClickHandler(btn)"></app-button>
+      </div>
+
+    </div>
+
+    <div class ="oButtonDiv">
+      <app-button *ngFor="let btn of Operators" [value]="btn" (click) = "onClickHandler(btn)"> </app-button>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+
+
